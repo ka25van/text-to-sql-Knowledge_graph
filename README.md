@@ -9,6 +9,9 @@ Traditional RAG:-
             FAISS for fast similarity search over embedded chunks based on our query asked.
             Runs RAG LangChain QA pipeline
             RetrivalQA takes the vector embedded data and the chain inputs the query to get the relavant answer using local Ollama LLM
+
+
+            
 Text2SQL:-
           Upload a PDF + query via '/ask-sql'
           This actually communicates with the sql database.
@@ -21,6 +24,8 @@ Text2SQL:-
                                                                     Returns the answer — all in one shot, without seeing any examples before (zero-shot)
                                                                     Now the sqlite stores the question and llm generated answer dynamically
 
+
+
 Knowledge-Graph:-
                 A Knowledge Graph (KG) is a structured way to represent entities (people, places, topics) and the relationships between them.
                 Each piece of data becomes a node (entity) or an edge (relationship), and we can query these relationships.
@@ -28,6 +33,9 @@ Knowledge-Graph:-
                 Get the result from '/kg-rag'
                 Connects to a Neo4j knowledge graph (bolt://localhost:7687)
                 Uses LangChain's KGQAChain to query the graph using your LLM
+
+
+
 
 
 To run this full project:-
