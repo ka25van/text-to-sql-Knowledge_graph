@@ -1,0 +1,8 @@
+fastapi
+langchain
+faiss-cpu
+uvicorn
+pypdf
+langchain_community
+langchain_core
+
